@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    background-color: darkseagreen;
+}
+table{
+    width: 60%;
+    margin: auto;
+
+}
+
+.titulito{
+    color: red;
+}
+
+.ds{
+    border: solid 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+ }
+
+.tablita{
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("assets/imagenes/perro2.gif");
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.tabla{
+    color: white;
+}
+
+.contenido{
+    text-align: center;
+}
+
+.tablita2{
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("assets/imagenes/perro.gif");
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.fondo{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("assets/imagenes/fondo.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+
